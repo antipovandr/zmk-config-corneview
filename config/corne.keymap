@@ -5,8 +5,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-   &kp ESCAPE  &kp Q  &kp W     &kp E  &kp R      &kp T      &kp Y  &kp U          &kp I    &kp O     &kp P           &kp LBKT
-&mt LCTRL TAB  &kp A  &kp S     &kp D  &kp F      &kp G      &kp H  &kp J          &kp K    &kp L  &kp SEMI  &mt RIGHT_ALT SQT
-    &kp LSHFT  &kp Z  &kp X     &kp C  &kp V      &kp B      &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp CAPSLOCK
-                             &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
+&kp ESCAPE  &kp Q  &kp W         &kp E  &kp R      &kp T      &kp Y  &kp U          &kp I    &kp O     &kp P  &kp LBKT
+ &kp LCTRL  &kp A  &kp S         &kp D  &kp F      &kp G      &kp H  &kp J          &kp K    &kp L  &kp SEMI   &kp SQT
+ &kp LSHFT  &kp Z  &kp X         &kp C  &kp V      &kp B      &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LGUI
+                          &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
             >;
         };
 
@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB      &kp N1          &kp N2          &kp N3     &kp N4         &kp N5        &kp N6          &kp N7    &kp N8           &kp N9         &kp N0       &kp BSPC
-&kp LCTRL  &kp INSERT        &kp HOME    &kp UP_ARROW    &kp END    &kp PAGE_UP    &kp INSERT        &kp HOME    &kp UP          &kp END      &kp PG_UP  &kp RIGHT_ALT
-&kp LSHFT     &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp DELETE  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN         &trans
-                                                &mo 3     &trans         &trans       &kp RET          &trans    &trans
+  &kp TAB      &kp N1          &kp N2          &kp N3     &kp N4         &kp N5        &kp N6          &kp N7    &kp N8           &kp N9         &kp N0      &kp BSPC
+&kp LCTRL  &kp INSERT        &kp HOME    &kp UP_ARROW    &kp END    &kp PAGE_UP    &kp INSERT        &kp HOME    &kp UP          &kp END      &kp PG_UP  &kp CAPSLOCK
+&kp LSHFT     &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp DELETE  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN        &trans
+                                         &kp LEFT_ALT     &trans   &kp CAPSLOCK       &kp RET          &trans    &trans
             >;
         };
 
