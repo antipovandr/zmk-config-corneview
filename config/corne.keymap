@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-       &kp TAB      &kp N1          &kp N2          &kp N3     &kp N4         &kp N5        &kp N6          &kp N7    &kp N8           &kp N9         &kp N0      &kp BSPC
-&kp LEFT_SHIFT  &kp INSERT        &kp HOME    &kp UP_ARROW    &kp END    &kp PAGE_UP    &kp INSERT        &kp HOME    &kp UP          &kp END      &kp PG_UP  &kp CAPSLOCK
-     &kp LCTRL     &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp DELETE  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN        &trans
-                                              &kp LEFT_ALT     &trans   &kp CAPSLOCK       &kp RET           &mo 3    &trans
+       &kp TAB      &kp N1          &kp N2          &kp N3     &kp N4         &kp N5        &kp N6          &kp N7         &kp N8           &kp N9         &kp N0        &trans
+&kp LEFT_SHIFT  &kp INSERT        &kp HOME    &kp UP_ARROW    &kp END    &kp PAGE_UP    &kp INSERT        &kp HOME         &kp UP          &kp END      &kp PG_UP  &kp CAPSLOCK
+     &kp LCTRL     &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp DELETE  &kp LEFT_ARROW       &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN        &trans
+                                              &kp LEFT_ALT     &trans   &kp CAPSLOCK       &kp RET           &mo 3  &kp BACKSPACE
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &kp F1  &kp F2  &kp F3    &kp F4         &kp F5     &kp F6       &kp F7     &kp F8    &kp F9   &kp F10   &kp F11        &kp F12
-&kp LCTRL  &trans  &trans    &trans         &trans     &trans    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp RIGHT_ALT
-&kp LSHFT  &trans  &trans    &trans         &trans     &trans    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE         &trans
-                           &kp LGUI  &kp LS(LG(S))  &kp SPACE      &kp RET     &trans    &trans
+           &kp F1  &kp F2  &kp F3         &kp F4  &kp F5     &kp F6       &kp F7     &kp F8    &kp F9   &kp F10   &kp F11        &kp F12
+   &kp LEFT_SHIFT  &trans  &trans         &trans  &trans     &trans    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp LS(LG(S))
+&kp RIGHT_CONTROL  &trans  &trans         &trans  &trans     &trans    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE       &kp LGUI
+                                   &kp RIGHT_ALT  &trans  &kp SPACE      &kp RET     &trans    &trans
             >;
         };
 
